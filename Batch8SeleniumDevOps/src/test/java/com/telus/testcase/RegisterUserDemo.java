@@ -47,8 +47,9 @@ public class RegisterUserDemo {
 		// page load wait
 		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 
+		// Code updated by Paras - 29th Agu 2022 - Increased the implicit wait time to avoid sync issue
 		// implicit wait
-		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		// Launching the application
 		driver.get(applicationURL);
