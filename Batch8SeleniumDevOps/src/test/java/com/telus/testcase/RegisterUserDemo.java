@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 public class RegisterUserDemo {
 
+	// Code added by Vinoth
 	public WebDriver driver;
 
 	//Initializing String variables
