@@ -45,8 +45,8 @@ public class RegisterUserDemo {
 		//Creating instance variable of chrome driver.
 		driver=new ChromeDriver();
 
-		// page load wait
-		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		// page load wait - updated by Vinoth
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
 		// Code updated by Paras - 29th Agu 2022 - Increased the implicit wait time to avoid sync issue
 		// implicit wait
