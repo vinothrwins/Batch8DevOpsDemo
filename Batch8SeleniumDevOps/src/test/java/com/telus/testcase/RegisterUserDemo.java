@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class RegisterUserDemo {
 
-	// Code added by Vinoth
+	// Code added by Vinoth - 5th Sep 2022
 	public WebDriver driver;
 
 	//Initializing String variables
